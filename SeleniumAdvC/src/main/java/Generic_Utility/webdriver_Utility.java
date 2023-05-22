@@ -10,6 +10,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 public class webdriver_Utility {
+	JavascriptExecutor js;
 	
 	public void getWindowMax(WebDriver driver) {
 		driver.manage().window().maximize();
@@ -51,5 +52,9 @@ public class webdriver_Utility {
 	}
 	public void getquit(WebDriver driver) {
 		driver.quit();
+	}
+	
+	public void launchApplication(String url) {
+		js.executeScript("window.location=arguments[0]", url);
 	}
 }
