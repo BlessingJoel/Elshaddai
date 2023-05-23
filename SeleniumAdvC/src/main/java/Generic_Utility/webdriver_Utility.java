@@ -12,7 +12,8 @@ import org.openqa.selenium.WebDriver;
 public class webdriver_Utility {
 	JavascriptExecutor js;
 	
-	public void getWindowMax(WebDriver driver) {
+   public void getWindowMax(WebDriver driver) {
+	   
 		driver.manage().window().maximize();
 	}
 	public void getImplicityWait(WebDriver driver) {

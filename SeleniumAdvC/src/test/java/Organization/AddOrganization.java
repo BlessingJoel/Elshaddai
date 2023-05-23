@@ -69,8 +69,8 @@ public class AddOrganization {
 		
 //		driver.findElement(By.xpath("//*[@title='Select']")).click();
 		
-		webdriver_Utility web1=new webdriver_Utility();
-		web1.getSwitchtowindows(driver);
+		//webdriver_Utility web1=new webdriver_Utility();
+		//web1.getSwitchtowindows(driver);
 //		Set<String> newWid = driver.getWindowHandles();
 //		Iterator<String> id = newWid.iterator();
 //		while(id.hasNext()) {
@@ -85,7 +85,7 @@ public class AddOrganization {
 //		driver.findElement(By.name("search")).click();
 //		driver.findElement(By.linkText("Exports")).click();
 		
-		web1.getSwitchtoAlertAccept(driver);
+		//web1.getSwitchtoAlertAccept(driver);
 //		Alert alt = driver.switchTo().alert();
 //		alt.accept();
 		
@@ -94,9 +94,9 @@ public class AddOrganization {
 //		driver.findElement(By.name("button")).click();
 		
 		Thread.sleep(3000);
-		web1.getSwitchtoAlertAccept(driver);
+		//web1.getSwitchtoAlertAccept(driver);
         
-		web1.getquit(driver);
+		//web1.getquit(driver);
 	}
 
 }
