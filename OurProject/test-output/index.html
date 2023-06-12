@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-suite" class="navigator-link">
+              <span class="suite-name border-passed">suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-suite" class="navigator-link ">
+                    <span>C:\Users\This-Pc\eclipse-workspace\OurProject\ENetwork.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite" class="hide-methods passed suite-suite"> (hide)</a> <!-- hide-methods passed suite-suite -->
+                      <a href="#" panel-name="suite-suite" class="show-methods passed suite-suite"> (show)</a> <!-- show-methods passed suite-suite -->
+                    </span>
+                    <div class="method-list-content passed suite-suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="Accessories">Accessories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HeaderMain" class="method navigator-link" hash-for-method="Contact">Contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="DataCenter">DataCenter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="DigitalDisplays">DigitalDisplays</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HeaderMain" class="method navigator-link" hash-for-method="Home">Home</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HomePage" class="method navigator-link" hash-for-method="Home3D">Home3D</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HomePage" class="method navigator-link" hash-for-method="HomeData">HomeData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HomePage" class="method navigator-link" hash-for-method="HomeDigital">HomeDigital</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HomePage" class="method navigator-link" hash-for-method="HomePrint">HomePrint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HomePage" class="method navigator-link" hash-for-method="HomeServices">HomeServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HomePage" class="method navigator-link" hash-for-method="HomeUser">HomeUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HomePage" class="method navigator-link" hash-for-method="Moresolution">Moresolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="Printing">Printing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="Services">Services</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HeaderMain" class="method navigator-link" hash-for-method="Software">Software</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.HeaderMain" class="method navigator-link" hash-for-method="Solution">Solution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="User">User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="printer">printer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite" title="ENetwork.FooterMain" class="method navigator-link" hash-for-method="software">software</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-suite" class="panel suite">
+          <div class="suite-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ENetwork.HeaderMain</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact">
+                  </a> <!-- Contact -->
+                  <span class="method-name">Contact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home">
+                  </a> <!-- Home -->
+                  <span class="method-name">Home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Software">
+                  </a> <!-- Software -->
+                  <span class="method-name">Software</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Solution">
+                  </a> <!-- Solution -->
+                  <span class="method-name">Solution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-passed -->
+          <div class="suite-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ENetwork.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home3D">
+                  </a> <!-- Home3D -->
+                  <span class="method-name">Home3D</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeData">
+                  </a> <!-- HomeData -->
+                  <span class="method-name">HomeData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeDigital">
+                  </a> <!-- HomeDigital -->
+                  <span class="method-name">HomeDigital</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePrint">
+                  </a> <!-- HomePrint -->
+                  <span class="method-name">HomePrint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeServices">
+                  </a> <!-- HomeServices -->
+                  <span class="method-name">HomeServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeUser">
+                  </a> <!-- HomeUser -->
+                  <span class="method-name">HomeUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Moresolution">
+                  </a> <!-- Moresolution -->
+                  <span class="method-name">Moresolution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-passed -->
+          <div class="suite-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ENetwork.FooterMain</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Accessories">
+                  </a> <!-- Accessories -->
+                  <span class="method-name">Accessories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DataCenter">
+                  </a> <!-- DataCenter -->
+                  <span class="method-name">DataCenter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DigitalDisplays">
+                  </a> <!-- DigitalDisplays -->
+                  <span class="method-name">DigitalDisplays</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Printing">
+                  </a> <!-- Printing -->
+                  <span class="method-name">Printing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Services">
+                  </a> <!-- Services -->
+                  <span class="method-name">Services</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User">
+                  </a> <!-- User -->
+                  <span class="method-name">User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printer">
+                  </a> <!-- printer -->
+                  <span class="method-name">printer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="software">
+                  </a> <!-- software -->
+                  <span class="method-name">software</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-passed -->
+        </div> <!-- panel suite -->
+        <div panel-name="test-xml-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\This-Pc\eclipse-workspace\OurProject\ENetwork.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ENetwork.HeaderMain&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ENetwork.HomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ENetwork.FooterMain&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test3 --&gt;
+&lt;/suite&gt; &lt;!-- suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">test3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite');
+function tableData_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Solution')
+data.setCell(0, 2, 'ENetwork.HeaderMain')
+data.setCell(0, 3, 62123);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'printer')
+data.setCell(1, 2, 'ENetwork.FooterMain')
+data.setCell(1, 3, 19644);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Moresolution')
+data.setCell(2, 2, 'ENetwork.HomePage')
+data.setCell(2, 3, 13022);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Services')
+data.setCell(3, 2, 'ENetwork.FooterMain')
+data.setCell(3, 3, 11562);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'User')
+data.setCell(4, 2, 'ENetwork.FooterMain')
+data.setCell(4, 3, 7571);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'HomeData')
+data.setCell(5, 2, 'ENetwork.HomePage')
+data.setCell(5, 3, 7108);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'software')
+data.setCell(6, 2, 'ENetwork.FooterMain')
+data.setCell(6, 3, 6868);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Printing')
+data.setCell(7, 2, 'ENetwork.FooterMain')
+data.setCell(7, 3, 6606);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Home3D')
+data.setCell(8, 2, 'ENetwork.HomePage')
+data.setCell(8, 3, 6360);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HomeServices')
+data.setCell(9, 2, 'ENetwork.HomePage')
+data.setCell(9, 3, 6306);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HomeUser')
+data.setCell(10, 2, 'ENetwork.HomePage')
+data.setCell(10, 3, 6238);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'HomePrint')
+data.setCell(11, 2, 'ENetwork.HomePage')
+data.setCell(11, 3, 6235);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'HomeDigital')
+data.setCell(12, 2, 'ENetwork.HomePage')
+data.setCell(12, 3, 6221);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Accessories')
+data.setCell(13, 2, 'ENetwork.FooterMain')
+data.setCell(13, 3, 4751);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'DataCenter')
+data.setCell(14, 2, 'ENetwork.FooterMain')
+data.setCell(14, 3, 4018);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Home')
+data.setCell(15, 2, 'ENetwork.HeaderMain')
+data.setCell(15, 3, 3593);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'DigitalDisplays')
+data.setCell(16, 2, 'ENetwork.FooterMain')
+data.setCell(16, 3, 3258);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Software')
+data.setCell(17, 2, 'ENetwork.HeaderMain')
+data.setCell(17, 3, 636);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Contact')
+data.setCell(18, 2, 'ENetwork.HeaderMain')
+data.setCell(18, 3, 411);
+window.suiteTableData['suite']= { tableData: data, tableDiv: 'times-div-suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-suite">
+              </div> <!-- times-div-suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ENetwork.HomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Scroll</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ENetwork.HeaderMain</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">3249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Home</span>
+                <span class="method-start">3250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">6846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">6864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Solution</span>
+                <span class="method-start">6865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">68990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Software</span>
+                <span class="method-start">68999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">68999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">69635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">69647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact</span>
+                <span class="method-start">69648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">70061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">70103 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ENetwork.HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">70501 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">HomeData</span>
+                <span class="method-start">72355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomeDigital</span>
+                <span class="method-start">79464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomeServices</span>
+                <span class="method-start">85685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomePrint</span>
+                <span class="method-start">91992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomeUser</span>
+                <span class="method-start">98228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home3D</span>
+                <span class="method-start">104466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Moresolution</span>
+                <span class="method-start">110826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">123848 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ENetwork.FooterMain</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">124303 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DataCenter</span>
+                <span class="method-start">126778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DigitalDisplays</span>
+                <span class="method-start">130797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Services</span>
+                <span class="method-start">134057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Printing</span>
+                <span class="method-start">145627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User</span>
+                <span class="method-start">152237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Accessories</span>
+                <span class="method-start">159809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">software</span>
+                <span class="method-start">164560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printer</span>
+                <span class="method-start">171428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">191072 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

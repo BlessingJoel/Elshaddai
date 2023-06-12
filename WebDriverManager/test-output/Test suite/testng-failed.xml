@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="methods" name="Failed suite [Test suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="methods" name="Test case(failed)">
+<suite name="Failed suite [Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="case(failed)">
     <classes>
       <class name="ThroneWeb.Header">
         <methods>
@@ -9,5 +9,5 @@
         </methods>
       </class> <!-- ThroneWeb.Header -->
     </classes>
-  </test> <!-- Test case(failed) -->
+  </test> <!-- case(failed) -->
 </suite> <!-- Failed suite [Test suite] -->
