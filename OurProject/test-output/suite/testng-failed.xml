@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="test3(failed)">
+  <test thread-count="5" name="test(failed)">
     <classes>
-      <class name="ENetwork.FooterMain">
+      <class name="ENetwork.HeaderMain">
         <methods>
-          <include name="openBrowser"/>
+          <include name="after"/>
           <include name="close"/>
-          <include name="Accessories"/>
-          <include name="User"/>
-          <include name="printer"/>
-          <include name="Printing"/>
-          <include name="software"/>
+          <include name="Software"/>
+          <include name="Setup"/>
+          <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- ENetwork.FooterMain -->
+      </class> <!-- ENetwork.HeaderMain -->
     </classes>
-  </test> <!-- test3(failed) -->
+  </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [suite] -->

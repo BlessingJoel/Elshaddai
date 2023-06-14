@@ -42,12 +42,13 @@ public class HeaderMain {
 	
 	
 	@Test(priority = 0,enabled = true)
-	public void Home(){
+	public void Home() throws Throwable{
 		
 //		driver.get("https://enetwork.co.in/");
 		
 		Header hd=new Header(driver);
 		hd.getclickHome();
+		Thread.sleep(1000);
 	}
 	
 		//Solutions

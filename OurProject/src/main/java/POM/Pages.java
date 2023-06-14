@@ -95,10 +95,13 @@ public class Pages {
 	    @FindBy(xpath = "(//*[starts-with(text(),'All in')])[1]")
 	    public static WebElement clickUFourthElement;
 	    
-	    public void getUser1() {
+	    public void getUser1() throws Exception {
 	    	clickUFirstElement.click();
+	    	Thread.sleep(1000);
 	    	clickUSecondElement.click();
+	    	Thread.sleep(1000);
 	    	clickUThirdElement.click();
+	    	Thread.sleep(1000);
 	    	clickUFourthElement.click();
 	    }
 	    
@@ -114,10 +117,13 @@ public class Pages {
 	    @FindBy(xpath = "(//*[starts-with(text(),'All')])[2]")
 	    public static WebElement clickUEightElement;
 	    
-	    public void getUser2() {
+	    public void getUser2() throws Exception {
 	    	clickUFifthElelment.click();
+	    	Thread.sleep(1000);
 	    	clickUSixthEelement.click();
+	    	Thread.sleep(1000);
 	    	clickUseventhElement.click();
+	    	Thread.sleep(1000);
 	    	clickUEightElement.click();
 	    }
 	    
@@ -130,9 +136,11 @@ public class Pages {
 	    @FindBy(xpath = "(//*[@class='img-fluid'])[1]")
 	    public static WebElement clickUCricleFirst;
 	    
-	    public void getclilckCricle() {
+	    public void getclilckCricle() throws Exception {
 	    	clickUCricleSecond.click();
+	    	Thread.sleep(1000);
 	    	clickUCricleThird.click();
+	    	Thread.sleep(1000);
 	    	clickUCricleFirst.click();
 	    }
 	    
@@ -154,12 +162,17 @@ public class Pages {
 	    @FindBy(xpath = "//*[starts-with(text(),'Wind')]")
 	    public static WebElement clickWindows;
 	    
-	    public void getUser3() {
+	    public void getUser3() throws Throwable {
 	    	clickIpadpro.click();
+	    	Thread.sleep(1000);
 	    	clickIpadair.click();
+	    	Thread.sleep(1000);
 	    	clickIpad.click();
+	    	Thread.sleep(1000);
 	    	clickIpadmini.click();
+	    	Thread.sleep(1000);
 	    	clickAndroid.click();
+	    	Thread.sleep(1000);
 	    	clickWindows.click();
 	    }
 	    
@@ -175,10 +188,13 @@ public class Pages {
 	    @FindBy(xpath = "(//*[starts-with(text(),'All')])[4]")
 	    public static WebElement clickAll;
 	    
-	    public void getUser4() {
+	    public void getUser4() throws Exception {
 	    	clickDesktop.click();
+	    	Thread.sleep(1000);
 	    	clickMoblie.click();
+	    	Thread.sleep(1000);
 	    	clickZero.click();
+	    	Thread.sleep(1000);
 	    	clickAll.click();
 	    }
 	    
@@ -197,8 +213,11 @@ public class Pages {
 	    
 	    public void getPrinterfirst() throws InterruptedException {
 	    	clickPUfirst.click();
+	    	Thread.sleep(1000);
 	    	clickPUsecond.click();
+	    	Thread.sleep(1000);
 	    	clickPUthird.click();
+	    	Thread.sleep(1000);
 	    	clickPUfourth.click();
 	    }
 	    
@@ -218,11 +237,15 @@ public class Pages {
 	    public static WebElement clickHPfifth;
 	    
 	    
-	    public void getPrintersecond() {
+	    public void getPrintersecond() throws Exception {
 	    	clickHPfirst.click();
+	    	Thread.sleep(1000);
 	    	clickHPsecond.click();
+	    	Thread.sleep(1000);
 	    	clickHpthird.click();
+	    	Thread.sleep(1000);
 	    	clickHPfourth.click();
+	    	Thread.sleep(1000);
 	    	clickHPfifth.click();
 	    }
 	    
@@ -242,11 +265,15 @@ public class Pages {
 	    public static WebElement clickOPfifth;
        
 	    
-	    public void getPrinterthird() {
+	    public void getPrinterthird() throws Exception {
 	    	clickOPfirst.click();
+	    	Thread.sleep(1000);
 	    	clickOPsecond.click();
+	    	Thread.sleep(1000);
 	    	clickOPthird.click();
+	    	Thread.sleep(1000);
 	    	clickOPfourth.click();
+	    	Thread.sleep(1000);
 	    	clickOPfifth.click();
 	    }
 	    
@@ -265,11 +292,15 @@ public class Pages {
 	    @FindBy(xpath = "(//*[contains(@class,'icon-o')])[19]")
 	    public static WebElement clickBPfifth;
 	    
-	    public void getPrinterfourth() {
+	    public void getPrinterfourth() throws Exception {
 	    	clickBPfirst.click();
+	    	Thread.sleep(1000);
 	    	clickBPsecond.click();
+	    	Thread.sleep(1000);
 	    	clickBPthird.click();
+	    	Thread.sleep(1000);
 	    	clickBPfourth.click();
+	    	Thread.sleep(1000);
 	    	clickBPfifth.click();
 	    }
 }

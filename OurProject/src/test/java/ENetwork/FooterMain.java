@@ -31,10 +31,10 @@ public class FooterMain {
 	public void openBrowser() {
 		WebDriverManager.chromedriver().setup();
 	    driver=new ChromeDriver();
+	    driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 //		driver.manage().window().maximize();
 		driver.navigate().to("https://enetwork.co.in/");
-		driver.manage().window().maximize();
 		web=new Project_Utility();
 		foot=new Footer(driver);
 		PageFactory.initElements(driver, Pages.class);
@@ -43,7 +43,7 @@ public class FooterMain {
 	}
 	//DataCenter
 	@Test(priority = 0,enabled = true)
-	public void DataCenter(){
+	public void DataCenter() throws Exception{
 		
 		
 		foot.getfirst();
@@ -59,9 +59,13 @@ public class FooterMain {
 		
 		
 		Pages.clickDCFirstElement.click();
+		Thread.sleep(1000);
 		Pages.clickDCSecondElement.click();
+		Thread.sleep(1000);
 		Pages.clickDCThirdElement.click();
+		Thread.sleep(1000);
 		Pages.clickDCFourthElement.click();
+		Thread.sleep(1000);
 		
 //		ja.executeScript("window.scrollTo(0,document.body.scrollHeight)", "");
 //		web.getScrollBottom(driver);
@@ -83,7 +87,9 @@ public class FooterMain {
 		
 //		PageFactory.initElements(driver, Pages.class);
 		Pages.clickDDFirstElement.click();
+		Thread.sleep(1000);
 		Pages.clickDDSecondElement.click();
+		Thread.sleep(1000);
 		Pages.clickDDThirdElement.click();
 	
 	
@@ -144,15 +150,25 @@ public class FooterMain {
 	   
 //	   PageFactory.initElements(driver, Pages.class);
 	   Pages.clickSFirstElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSSecondElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSThirdElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSFourthElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSFifthElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSSixthElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSSeventhElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSEighthElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSNenthElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSTenthElement.click();
+	   Thread.sleep(1000);
 	   Pages.clickSEleventhElement.click();
 	   
 //	   driver.findElement(By.xpath("(//*[contains(text(),'Laptop Keyboard')])[2]")).click(); 
@@ -178,9 +194,11 @@ public class FooterMain {
 //		PageFactory.initElements(driver, Pages.class);
 	    
 		Pages.clickPFirstElement.click();
+		Thread.sleep(1000);
 		Pages.clickPSecondElement.click();
+		Thread.sleep(1000);
 		Pages.clickPThirdElement.click();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		Pages.clickPFourthElement.click();
 		
 		Thread.sleep(3000);
@@ -201,7 +219,7 @@ public class FooterMain {
 //	    Pages.clickUFourthElement.click();
 		pg.getUser1();
 		
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		pg.getUser2();
 		
 		pg.getclilckCricle();
