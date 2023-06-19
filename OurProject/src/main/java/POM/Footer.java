@@ -39,6 +39,21 @@ public class Footer {
 	
 	@FindBy(xpath = "(//*[contains(text(),'Enquiry')])[1]")
 	private WebElement clickenquiry;
+	
+	@FindBy(xpath = "//*[text()=' Ascending Softwares']")
+	private WebElement clickcopyright;
+	
+	@FindBy(xpath = "//*[text()='Legal']")
+	private WebElement clicklegal;
+	
+	@FindBy(xpath = "//*[contains(text(),'Sit')]")
+	private WebElement clicksitemap;
+	
+	@FindBy(xpath = "//*[contains(text(),'Privacy')]")
+	private WebElement clickprivacy;
+	
+	@FindBy(xpath = "//*[contains(text(),'Terms')]")
+	private WebElement clickterms;
 
 	public void getread() {
 		clickreadcontent.click();
@@ -75,5 +90,24 @@ public void getthird() {
 	public void getclickEnquiry() {
 		clickenquiry.click();
 	}
+	
+	public void getclickCopyRight() {
+		clickcopyright.click();
+	}
+	
+	public void getclickLegal() {
+		clicklegal.click();
+	}
+	
+	public void getclickSiteMap() {
+		clicksitemap.click();
+	}
 	 
+	public void getclickPrivacy() {
+		clickprivacy.click();
+	}
+	
+	public void getclickTerms() {
+		clickterms.click();
+	}
 }

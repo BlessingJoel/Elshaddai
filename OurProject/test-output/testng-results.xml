@@ -1,49 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T17:35:03 IST" name="Default suite" finished-at="2023-06-14T17:36:04 IST" duration-ms="60667">
+  <suite started-at="2023-06-19T10:37:14 IST" name="Default suite" finished-at="2023-06-19T10:39:54 IST" duration-ms="160396">
     <groups>
     </groups>
-    <test started-at="2023-06-14T17:35:03 IST" name="Default test" finished-at="2023-06-14T17:36:04 IST" duration-ms="60667">
-      <class name="ENetwork.HomePage">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:03 IST" name="openBrowser" finished-at="2023-06-14T17:35:09 IST" duration-ms="6509" status="PASS">
+    <test started-at="2023-06-19T10:37:14 IST" name="Default test" finished-at="2023-06-19T10:39:54 IST" duration-ms="160396">
+      <class name="ENetwork.FooterMain">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:37:14 IST" name="openBrowser" finished-at="2023-06-19T10:37:17 IST" duration-ms="3208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="HomeData()[pri:0, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:09 IST" name="HomeData" finished-at="2023-06-14T17:35:18 IST" duration-ms="8967" status="PASS">
+        <test-method signature="DataCenter()[pri:0, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:37:17 IST" name="DataCenter" finished-at="2023-06-19T10:37:25 IST" duration-ms="8188" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeData -->
-        <test-method signature="HomeDigital()[pri:1, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:18 IST" name="HomeDigital" finished-at="2023-06-14T17:35:25 IST" duration-ms="6160" status="PASS">
+        </test-method> <!-- DataCenter -->
+        <test-method signature="DigitalDisplays()[pri:1, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:37:25 IST" name="DigitalDisplays" finished-at="2023-06-19T10:37:30 IST" duration-ms="5399" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeDigital -->
-        <test-method signature="HomeServices()[pri:2, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:25 IST" name="HomeServices" finished-at="2023-06-14T17:35:31 IST" duration-ms="6305" status="PASS">
+        </test-method> <!-- DigitalDisplays -->
+        <test-method signature="Services()[pri:2, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:37:30 IST" name="Services" finished-at="2023-06-19T10:37:52 IST" duration-ms="21364" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeServices -->
-        <test-method signature="HomePrint()[pri:3, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:31 IST" name="HomePrint" finished-at="2023-06-14T17:35:37 IST" duration-ms="6425" status="PASS">
+        </test-method> <!-- Services -->
+        <test-method signature="Printing()[pri:3, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:37:52 IST" name="Printing" finished-at="2023-06-19T10:37:58 IST" duration-ms="6449" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePrint -->
-        <test-method signature="HomeUser()[pri:4, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:37 IST" name="HomeUser" finished-at="2023-06-14T17:35:44 IST" duration-ms="6226" status="PASS">
+        </test-method> <!-- Printing -->
+        <test-method signature="User()[pri:4, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:37:58 IST" name="User" finished-at="2023-06-19T10:38:20 IST" duration-ms="21562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeUser -->
-        <test-method signature="Home3D()[pri:5, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:44 IST" name="Home3D" finished-at="2023-06-14T17:35:50 IST" duration-ms="6265" status="PASS">
+        </test-method> <!-- User -->
+        <test-method signature="Accessories()[pri:5, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:38:20 IST" name="Accessories" finished-at="2023-06-19T10:38:25 IST" duration-ms="4764" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home3D -->
-        <test-method signature="Moresolution()[pri:6, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:35:50 IST" name="Moresolution" finished-at="2023-06-14T17:36:03 IST" duration-ms="13234" status="PASS">
+        </test-method> <!-- Accessories -->
+        <test-method signature="software()[pri:6, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:38:25 IST" name="software" finished-at="2023-06-19T10:38:32 IST" duration-ms="6929" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Moresolution -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ENetwork.HomePage@4cc451f2]" started-at="2023-06-14T17:36:03 IST" name="close" finished-at="2023-06-14T17:36:04 IST" duration-ms="515" status="PASS">
+        </test-method> <!-- software -->
+        <test-method signature="printer()[pri:7, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:38:32 IST" name="printer" finished-at="2023-06-19T10:39:06 IST" duration-ms="34697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printer -->
+        <test-method signature="Footer()[pri:8, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:39:06 IST" name="Footer" finished-at="2023-06-19T10:39:53 IST" duration-ms="47260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ENetwork.FooterMain@6379eb]" started-at="2023-06-19T10:39:53 IST" name="close" finished-at="2023-06-19T10:39:54 IST" duration-ms="520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- ENetwork.HomePage -->
+      </class> <!-- ENetwork.FooterMain -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

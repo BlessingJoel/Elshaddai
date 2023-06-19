@@ -5,16 +5,9 @@
     <classes>
       <class name="ENetwork.FooterMain">
         <methods>
+          <include name="Footer"/>
           <include name="openBrowser"/>
           <include name="close"/>
-          <include name="Accessories"/>
-          <include name="DataCenter"/>
-          <include name="Services"/>
-          <include name="User"/>
-          <include name="DigitalDisplays"/>
-          <include name="printer"/>
-          <include name="Printing"/>
-          <include name="software"/>
         </methods>
       </class> <!-- ENetwork.FooterMain -->
     </classes>

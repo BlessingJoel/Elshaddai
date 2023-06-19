@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -45,7 +46,10 @@ public class FooterMain {
 	@Test(priority = 0,enabled = true)
 	public void DataCenter() throws Exception{
 		
-		
+		foot.getread();
+		String url = driver.getCurrentUrl();
+		Assert.assertEquals(url, "https://enetwork.co.in/#/aboutus");
+		System.out.println("click the read more content");
 		foot.getfirst();
 		web.getScrolldown(driver);
 //		ja.executeScript("window.scroll(0,500)", "");
@@ -209,6 +213,7 @@ public class FooterMain {
 	public void User() throws Throwable {
 		
 		Thread.sleep(3000);
+		web.getScrolldown(driver); 
 //		JavascriptExecutor ja=(JavascriptExecutor)driver;
 //		ja.executeScript("window.scrollTo(0,document.body.scrollHeight)", "");
 //		foot.getfifth();
@@ -290,7 +295,7 @@ public class FooterMain {
 		Thread.sleep(3000);
 	}
 	
-	@Test(priority = 7)
+	@Test(priority = 7,enabled = true)
 	public void printer() throws Exception {
 		foot.geteight();
 
@@ -312,6 +317,19 @@ public class FooterMain {
 		pg.getPrinterfourth();
 		Thread.sleep(3000);
 	}
+	
+	@Test(priority = 8)
+	public void Footer() throws Exception {
+		foot.getclickCopyRight();
+		driver.navigate().back();
+		Thread.sleep(3000);
+		foot.getclickLegal();
+		foot.getclickSiteMap();
+		driver.navigate().back();
+		foot.getclickPrivacy();
+		foot.getclickTerms();
+	}
+	
 	@AfterTest(enabled = true)
 	public void close() {
 		driver.quit();

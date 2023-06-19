@@ -89,8 +89,12 @@ public class Header {
    @FindBy(xpath = "(//*[contains(text(),'3D')])[1]")
    private WebElement click3D;
    
+   //Consultant
+   @FindBy(xpath = "(//*[contains(text(),' Consul')])[1]")
+   private WebElement clickConsultant;
+   
    //Contact Us
-   @FindBy(xpath = "(//*[starts-with(text(),'Contact')])[1]")
+   @FindBy(xpath = "(//*[starts-with(text(),'Contact')])[2]")
    private WebElement clickContact;
    
    @FindBy(xpath = "//*[starts-with(@class,'scroll')]")
@@ -195,6 +199,11 @@ public class Header {
    
    public void getclick3D() {
 	   click3D.click();
+   }
+   
+   //Consultant
+   public void getclickConsultant() {
+	   clickConsultant.click();
    }
    
    //Contact  
